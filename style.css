@@ -1,0 +1,70 @@
+:root{
+    --red: #fa2635;
+    --grey: #363d47;
+    --bg: #191919;
+
+}
+
+body{
+    background-color: black;
+
+}
+.progress{
+    border-radius: 25px;
+    background-color: var(--grey);
+    margin: 0 8% 3% 8%;
+
+}
+
+.progress-bar{
+    background-color: var(--red);
+    
+}
+
+.light-bg{
+    background-color: var(--bg);
+    color: white;
+}
+
+.right-card{
+    margin: 2% 2%;
+    padding: 2% 2%;
+}
+
+.text-highlight{
+color: var(--red);
+}
+.text{
+    color: var(--grey);
+}
+.line{
+    border-bottom: 1px solid white;
+    
+}
+i{
+    margin-right: 2%;
+    color: var(--red);
+}
+.social{
+    color: white;
+}
+.social:hover{
+    color: var(--grey);
+}
+
+.dp{
+    position: relative;
+}
+.dp>h3{
+    position: absolute;
+    top: 88%;
+}
+.dp-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+li{
+    list-style: none;
+    margin-top: 5%;
+}
