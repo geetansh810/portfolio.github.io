@@ -34,6 +34,11 @@ body{
 .right-card a{
     text-decoration: none;
     font-size: 1rem;
+    color: blue;
+    margin-top: 3%;
+}
+
+.right-card a:hover {
     color: white;
 }
 
